@@ -14,17 +14,28 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap");
+
+:root {
+  --main-bg: #06050b;
+  --main-text: #f5cfc4;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ede7e7;
+  color: var(--main-text);
+  background: var(--main-bg);
+  width: 100%;
 }
 </style>
